@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagina web de una empresa que vende componentes tecnologicos">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/Estilos.css">
+</head>
+<body>
+    <header class="bg-animado" style="height: 80vh;">
+        <div class="header_nav">
+            <div class="contenedor">
+                <img id="logo" src="imagenes/LOGO MATRIX SUPPLY.png" alt="The Matrix Supplies">
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="Sobre_Nosotros.html">Sobre Nosotros</a>
+                    <a href="Productos.html">Productos</a>
+                    <a href="Contactanos.html">Contactanos</a>
+                    <a href="Formulario.html">Formulario</a>
+                </nav>
+            </div>
+        </div>
+
+        <section class="banner contenedor">
+            <secrion class="banner_title">
+                <h2>Formulario</h2>
+            </secrion>
+        </section>
+
+        <div class="numeros">
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>0</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>0</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>0</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>0</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>0</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>0</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>0</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>1</b></p></div>
+            <div class="numero"><p><b>0</b></p></div>
+        </div>
+    </header>
+
+    <form method="POST" action="enviar.php">
+        <label for="nombre">Nombre*:</label>
+        <input type="text" name="nombre" id="nombre" required><br>
+
+        <label for="correo">Correo Electronico*:</label>
+        <input type="text" name="correo" id="correo" required>
+
+        <label for="telefono">Telefono:</label>
+        <input type="text" name="telefono" id="telefono"><br>
+
+        <label for="mensaje">Mensaje:*</label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
