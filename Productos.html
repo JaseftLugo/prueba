@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="description" content="Pagina web de una empresa que vende componentes tecnologicos">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <script src="https://kit.fontawesome.com/e07534edc7.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="imagenes/LOGO MATRIX SUPPLY sin letra.png">
     <title>Productos</title>
     <link rel="stylesheet" href="CSS/Estilos.css">
+    <link rel="stylesheet" href="CSS/grilla.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JavaScript/arriba.js"></script>
 </head>
 <body>
+
+    <!----------------------Header------------------------>
     <header class="bg-animado" style="height: 80vh;">
         <div class="header_nav">
             <div class="contenedor">
@@ -55,5 +62,176 @@
             <div class="numero"><p><b>0</b></p></div>
         </div>
     </header>
+
+    <!--------------------Productos--------------------->
+    <br><br>
+    <h1>PRODUCTOS</h1><br><br>
+    <div class="contenedor">
+    <div class="contenedor-pro">
+        <div class="producto">
+            <img src="imagenes/cables.png" alt="cables">
+            <div class="informacion">
+                <span class="tipo-envio">Envio con normalidad</span>
+                <span class="precio">$ 50</span>
+                <span class="precio-envio">Envio gratis</span>
+                <span class="descripcion">Paquete de cables-100</span>
+                <div class="calificacion">
+                    <Span><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></Span>
+                    <span>1000</span>
+                </div>
+                <span class="ubicacion">Santo Domingo</span>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img height="50%" src="imagenes/led.jpg" alt="Leds">
+            <div class="informacion">
+                <span class="tipo-envio">Envio con normalidad</span>
+                <span class="precio">$ 70</span>
+                <span class="precio-envio">Envio gratis</span>
+                <span class="descripcion">Paquete de LED-120</span>
+                <div class="calificacion">
+                    <Span><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></Span>
+                    <span>2370</span>
+                </div>
+                <span class="ubicacion">Santo Domingo</span>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="imagenes/placa_madre.png" alt="placa_madre">
+            <div class="informacion">
+                <span class="tipo-envio">Envio con normalidad</span>
+                <span class="precio">$ 140</span>
+                <span class="precio-envio">Envio gratis</span>
+                <span class="descripcion">Placa Madre-250</span>
+                <div class="calificacion">
+                    <Span><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></Span>
+                    <span>4297</span>
+                </div>
+                <span class="ubicacion">Santo Domingo</span>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="imagenes/sensores.jpg" alt="sensores">
+            <div class="informacion">
+                <span class="tipo-envio">Envio con normalidad</span>
+                <span class="precio">$ 20</span>
+                <span class="precio-envio">Envio gratis</span>
+                <span class="descripcion">Sensores-150</span>
+                <div class="calificacion">
+                    <Span><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></Span>
+                    <span>2983</span>
+                </div>
+                <span class="ubicacion">Santo Domingo</span>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="imagenes/joysticks.jpg" alt="Joysticks">
+            <div class="informacion">
+                <span class="tipo-envio">Envio con normalidad</span>
+                <span class="precio">$ 15</span>
+                <span class="precio-envio">Envio gratis</span>
+                <span class="descripcion">Joysticks</span>
+                <div class="calificacion">
+                    <Span><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></Span>
+                    <span>802</span>
+                </div>
+                <span class="ubicacion">Santo Domingo</span>
+            </div>
+        </div>
+
+
+        <div class="producto">
+            <img src="imagenes/teclado.jpg" alt="teclados">
+            <div class="informacion">
+                <span class="tipo-envio">Envio con normalidad</span>
+                <span class="precio">$ 56</span>
+                <span class="precio-envio">Envio gratis</span>
+                <span class="descripcion">Teclados</span>
+                <div class="calificacion">
+                    <Span><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></Span>
+                    <span>1450</span>
+                </div>
+                <span class="ubicacion">Santo Domingo</span>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="imagenes/cablessata.jpg" alt="cables">
+            <div class="informacion">
+                <span class="tipo-envio">Envio con normalidad</span>
+                <span class="precio">$ 50</span>
+                <span class="precio-envio">Envio gratis</span>
+                <span class="descripcion">Cables SATA</span>
+                <div class="calificacion">
+                    <Span><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i></Span>
+                    <span>1290</span>
+                </div>
+                <span class="ubicacion">Santo Domingo</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!------------------------------Footer------------------------->
+    <Footer>
+        <img src="imagenes/LOGO MATRIX SUPPLY.png" alt="">
+        <div class="paginasfooter">
+            <h1>Páginas</h1>
+            <div class="figura1"></div>
+            <i class="fas fa-chevron-right"></i><a href="index.html"> Inicio</a><br>
+            <i class="fas fa-chevron-right"></i><a href="Sobre_Nosotros.html"> Sobre Nosotros</a><br>
+            <i class="fas fa-chevron-right"></i><a href="Productos.html"> Productos</a><br>
+            <i class="fas fa-chevron-right"></i><a href="Contactanos.html"> Contactanos</a><br>
+            <i class="fas fa-chevron-right"></i><a href="Formulario.html"> Formulario</a><br>
+        </div>
+
+        <div class="redes">
+            <h1>Redes Sociales</h1>
+            <div class="figura1"></div>
+            <i class="fab fa-instagram"></i><a href=""> The Matrix Supplies</a><br><br>
+                <i class="fab fa-youtube"></i><a href=""> The Matrix Supplies</a><br><br>
+                <i class="fab fa-whatsapp"></i><a href=""> +1 809-964-4939</a><br><br>
+                 
+        </div><br><br><br><br><br><br><br><br><br>
+        &copy; 2021 The Matrix Supplies
+    </Footer>
+
+    <div class="contenedor">
+        <div class="up">
+            <i class="fas fa-chevron-up"></i>
+    </div>
+    </div>
 </body>
 </html>

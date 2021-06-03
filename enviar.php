@@ -1,5 +1,6 @@
-<?php
-// Obteniendo datos
+<?php  
+
+// Llamando a los campos
 $nombre = $_POST['nombre'];
 $correo = $_POST['correo'];
 $telefono = $_POST['telefono'];
@@ -7,14 +8,14 @@ $mensaje = $_POST['mensaje'];
 
 // Datos para el correo
 $destinatario = "jaseftgaimer19@gmail.com";
-$asunto = "Contacto desde el sitio web";
+$asunto = "Contacto desde nuestra web";
 
 $carta = "De: $nombre \n";
 $carta .= "Correo: $correo \n";
-$carta .= "Telefono: Telefono \n";
+$carta .= "Telefono: $telefono \n";
 $carta .= "Mensaje: $mensaje";
 
-// Enviar mensaje
+// Enviando Mensaje
 mail($destinatario, $asunto, $carta);
-header('Location:Contactanos.html')
+header('Location:Formulario.html');
 ?>
